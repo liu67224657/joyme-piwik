@@ -1,0 +1,58 @@
+<?php $clickheatConf = array (
+  'logPath' => '/opt/data/clickheat/logs/',
+  'cachePath' => '/opt/data/clickheat/cache/',
+  'referers' => 
+  array (
+    0 => 'wiki.joyme.com',
+    1 => 'www.joyme.com',
+    2 => 'joyme.youku.com',
+    3 => 'm.wiki.joyme.com',
+    4 => 'wiki.joyme.alpha',
+  ),
+  'groups' => 
+  array (
+    0 => 'wiki',
+    1 => 'joyme',
+    2 => 'youku',
+  ),
+  'filesize' => 0,
+  'adminLogin' => 'adminclick',
+  'adminPass' => '664e893555ee59aae4e3abc1f8cc9dba',
+  'viewerLogin' => 'guest',
+  'viewerPass' => '084e0343a0486ff05530df6c705c8bb4',
+  'memory' => 128,
+  'step' => 5,
+  'dot' => 19,
+  'flush' => 0,
+  'start' => 'm',
+  'palette' => false,
+  'heatmap' => true,
+  'hideIframes' => true,
+  'hideFlashes' => true,
+  'yesterday' => false,
+  'alpha' => 80,
+  '__screenSizes' => 
+  array (
+    0 => 0,
+    1 => 240,
+    2 => 640,
+    3 => 800,
+    4 => 1024,
+    5 => 1152,
+    6 => 1280,
+    7 => 1440,
+    8 => 1600,
+    9 => 1800,
+  ),
+  '__browsersList' => 
+  array (
+    'all' => '',
+    'msie' => 'Internet Explorer',
+    'firefox' => 'Firefox',
+    'chrome' => 'Chrome',
+    'safari' => 'Safari',
+    'opera' => 'Opera',
+    'unknown' => '',
+  ),
+  'version' => '1.14',
+); ?>
